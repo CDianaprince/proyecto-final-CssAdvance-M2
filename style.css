@@ -238,12 +238,13 @@
 
   .header{
     width: 100%;
-    gap: 65%;
+    gap: 70%;
     padding-bottom: 0%;
-    padding-right: 5%;
+    padding-right: 2%;
   }
   .main{
-    padding-top: 5%;
+    padding-top: 0%;
+    margin-top: 0%;
   }
   
   .section-desk-1{
@@ -254,12 +255,9 @@
    gap: 2%;
    margin-left: 5%;
    width: 150%;
- 
-  
+
 
   }
-
-
 
   .section-1{
     width: 65%;
@@ -280,7 +278,6 @@
   .img-1 {
     width: 35%;
     padding: 5%;
-    
 
   }
 
@@ -304,9 +301,7 @@
     
     position: absolute;
     width: 100%;
- 
-    
-   
+    height: 80%;
 
   }
 
@@ -315,12 +310,15 @@
    width: 50%;
 
   }
-  /*.section-2__div{
-    width: 100%;
-  }*/
+  .section-2__div{
+   display: flex;
+   flex-direction: column;
+   margin-left: -10%;
+  }
   .section-2__h2{
     width: 100%;
     font-size:xx-large;
+    margin-left: -17%;
    
   }
   .section-2__p{
@@ -332,7 +330,9 @@
    
    
   }
-
+  .section2-span{
+  margin-left: -70%;
+  }
 
   .section-3{
    position: absolute;
@@ -340,6 +340,102 @@
    width: 30%;
    right: 65%;
 
+   padding-bottom: 2%;
+   border-radius: 4px;
+  }
+  .section-3__div{
+    display: flex;
+    align-items: center;
+
+  }
+
+
+  .fa-2{
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+  .section-3__div__div--h4{
+    font-weight: 700;
+    font-size: medium;
+  }
+
+  .section-4{
+    position: absolute;
+    top:224%;
+    width: 100%;
+    right: 0%;
+    display: flex;
+    gap: 2%;
+    height: 40%;
+    padding-top: 5%;
+  }
+
+  .section-4--text{
+    margin-left: -30%;
+    text-align: left;
+  }
+  .section-4__h2{
+    margin-left: 22%;
+  }
+  .section-4__input{
+    width: 120%;
+  }
+  .section-4__button{
+   margin-left: -34%;
+  }
+
+  .footer{
+    position: absolute;
+    top:264%;
+    width: 100%;
+    right: 0%;
+    display: flex;
+    gap: 2%;
+    height: 50%;
+    
+  }
+  .footer__divp{
+    padding: 0%;
+    
+   
+  }
+  .footer__divp__1{
+    padding-top: 3%;
+  }
+  .footer__divp__2-span{
+    padding: 2%;
+  }
+  .footer__divp__2,
+  .footer__nav1,
+  .footer__nav2,
+  .footer__imgdiv
+  {
+    padding: 0%;
+  }
+
+  .footer__divp1{
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+   
+    
+
+  }
+  .footer__divp__2__img{
+    width: 10%;
+  }
+  .footer__divp__2,
+  .footer__nav1,
+  .footer__nav2,
+  .footer__imgdiv {
+    width: 25%;
+  }
+  .footer__nav1__ul__li__a{
+    color: white;
+    text-decoration: none;
   }
 
 }
