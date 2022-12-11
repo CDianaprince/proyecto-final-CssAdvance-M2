@@ -232,6 +232,10 @@
   padding-left: 45%;
   
 }
+.footer__nav1__ul__li__a{
+  color: white;
+  text-decoration: none;
+}
 
 @media(min-width:1200px){
 
@@ -361,13 +365,13 @@
 
   .section-4{
     position: absolute;
-    top:224%;
+    top:215%;
     width: 100%;
     right: 0%;
     display: flex;
     gap: 2%;
-    height: 40%;
-    padding-top: 5%;
+    height: 50%;
+    padding-top: 10%;
   }
 
   .section-4--text{
