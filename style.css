@@ -4,6 +4,7 @@
 }
 
 .header{
+  font-family: 'Raleway', sans-serif;
   width: 45rem;
   height: 5%;
  
@@ -18,7 +19,7 @@
 
 
 .nav-link {
-
+  font-family: 'Raleway', sans-serif;
   color: black;
   
 }
@@ -27,6 +28,8 @@
 .main{
   width: 45rem;
   padding-top: 20%;
+  font-family: 'Open Sans', sans-serif;
+  
  
 }
 
@@ -40,12 +43,6 @@
 
 }
 
-.section-4,
-.section-3,
-.section-2{
-  
-}
-
 .img-1__img,
 .img-2__img{
   width: 40rem;
@@ -56,6 +53,7 @@
 }
 .section-1__h1{
   font-weight: 700;
+  
 }
 .section-1__p{
   width: 60%;
@@ -233,6 +231,117 @@
   gap: 3%;
   padding-left: 45%;
   
+}
+
+@media(min-width:1200px){
+
+
+  .header{
+    width: 100%;
+    gap: 65%;
+    padding-bottom: 0%;
+    padding-right: 5%;
+  }
+  .main{
+    padding-top: 5%;
+  }
+  
+  .section-desk-1{
+   display: flex;
+   flex-direction:row-reverse;
+   justify-content: center;
+   align-items: center;
+   gap: 2%;
+   margin-left: 5%;
+   width: 150%;
+ 
+  
+
+  }
+
+
+
+  .section-1{
+    width: 65%;
+    padding: 2%;
+    margin-left: 0%;
+
+  }
+  .section-1__h1{
+    width: 100%;
+    font-size:xx-large;
+    padding-left: 15%;
+    
+  }
+  .section-1__p{
+    width: 70%;
+
+  }
+  .img-1 {
+    width: 35%;
+    padding: 5%;
+    
+
+  }
+
+  .img-1__img{
+    width: 40rem;
+  }
+  .div--input{
+    padding-left: 15%;
+  }
+   .section-desk-2{
+    margin-top: 0%;
+   }
+  .curve-mobile{
+    width: 94.9rem;
+  }
+  .background-color{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    width: 100%;
+ 
+    
+   
+
+  }
+
+  .section-2,
+  .img-2__div-img{
+   width: 50%;
+
+  }
+  /*.section-2__div{
+    width: 100%;
+  }*/
+  .section-2__h2{
+    width: 100%;
+    font-size:xx-large;
+   
+  }
+  .section-2__p{
+    width: 100%;
+  }
+ 
+  .img-2__img{
+    width: 40rem;
+   
+   
+  }
+
+
+  .section-3{
+   position: absolute;
+   top:50%;
+   width: 30%;
+   right: 65%;
+
+  }
+
 }
 
 
