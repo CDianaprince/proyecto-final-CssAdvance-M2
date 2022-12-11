@@ -5,15 +5,15 @@
 
 .header{
   font-family: 'Raleway', sans-serif;
-  width: 45rem;
+  width: 35rem;
   height: 5%;
  
   display: flex;
   justify-content: right;
-  gap: 35%;
+  gap: 10%;
   padding-top: 5%;
   padding-bottom: 10%;
-  padding-right: 5%;
+  padding-right: 15%;
   
 }
 
@@ -26,7 +26,7 @@
 
 
 .main{
-  width: 45rem;
+  width: 35rem;
   padding-top: 20%;
   font-family: 'Open Sans', sans-serif;
   
@@ -45,7 +45,7 @@
 
 .img-1__img,
 .img-2__img{
-  width: 40rem;
+  width: 30rem;
   padding-top: 10%;
   padding-bottom: 10%;
   padding-left: 5%;
