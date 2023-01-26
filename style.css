@@ -11,6 +11,7 @@
   display: flex;
   gap: 20%;
   padding-top: 5%;
+  justify-content: space-between;
   /*font-family: 'Raleway', sans-serif;
   width: 20rem;
   height: 5%;
@@ -35,6 +36,7 @@
 
 .nav{
 font-size: smaller;
+
 }
 .nav-link {
   font-family: 'Raleway', sans-serif;
@@ -442,7 +444,7 @@ font-size: smaller;
     display: flex;
     gap: 15%;
     padding-top: 5%;
-    padding-bottom:5%;
+    padding-bottom:10%;
   }
 
   .section-4--text{
@@ -518,6 +520,15 @@ font-size: smaller;
   .footer__nav1__ul__li__a{
     color: white;
     text-decoration: none;
+  }
+  .footer__nav1__ul,
+  .footer__nav2__ul{
+    text-align: left;
+    
+    
+  }
+  .footer__nav1{
+  margin-left: 15%;
   }
 
 }
